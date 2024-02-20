@@ -22,7 +22,11 @@ vim.o.scrolloff = 8
 -- Mostrar el límite ude 80 caracteres
 vim.o.colorcolumn = "80,100"
 
--- Opciones para nvim-qt
+-- Configurando idioma
 
-vim.opt.guifont = "Hack Nerd Font Mono:h12"
+vim.o.spelllang = "es,gl,en_gb,en_us"
+vim.o.spell = true
 
+-- Probando autochdir
+
+vim.o.autochdir = true

@@ -21,7 +21,7 @@ if exists ('g:GuiLoaded')
 
   " Enable GUI ScrollBar
   if exists(':GuiScrollBar')
-    GuiScrollBar 1
+    GuiScrollBar 0
   endif
 
   GuiRenderLigatures 1

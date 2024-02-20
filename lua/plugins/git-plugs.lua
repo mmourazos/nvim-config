@@ -12,4 +12,5 @@ return {
   {
     "tpope/vim-fugitive",
   },
+  -- Solo para ver lo que pasa.
 }

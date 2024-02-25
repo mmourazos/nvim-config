@@ -6,7 +6,7 @@ if exists ('g:GuiLoaded')
   " Set Editor Font
   if exists(':GuiFont')
     " Use GuiFont! to ignore font errors
-    GuiFont Hack Nerd Font Mono:h12
+    GuiFont! Hack Nerd Font Mono:h14
   endif
 
   " Disable GUI Tabline

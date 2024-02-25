@@ -1,5 +1,6 @@
 -- Options are automatically loaded before lazy.nvim startup
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
+-- la razón de la sinrazón que a mi razón se hace, de tal manera mi razón enflaquece que con razón me quejo de lo que a mi razón parece.
 -- Add any additional options here
 
 --set shell=powershell
@@ -30,3 +31,23 @@ vim.o.spell = true
 -- Probando autochdir
 
 vim.o.autochdir = true
+
+-- Soft wrap
+
+vim.o.wrap = true
+vim.o.linebreak = true
+vim.o.textwidth = 120
+
+-- Indentado
+
+vim.o.tabstop = 4
+vim.o.softtabstop = 4
+vim.o.shiftwidth = 4
+vim.o.expandtab = true
+
+vim.o.smartindent = true
+
+-- Intentado hacer NeoTree transparente
+vim.api.nvim_set_hl(0, "Normal", { fg = "NONE", ctermfg = "NONE" })
+--vim.api.nvim_set_hl(0, "NeoTreeNormal", { fg = "NONE", ctermfg = "NONE" })
+--vim.api.nvim_set_hl(0, "NeoTreeNormalNC", { fg = "NONE", ctermfg = "NONE" })

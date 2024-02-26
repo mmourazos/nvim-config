@@ -36,7 +36,7 @@ vim.o.autochdir = true
 
 vim.o.wrap = true
 vim.o.linebreak = true
-vim.o.textwidth = 120
+vim.o.textwidth = 100
 
 -- Indentado
 

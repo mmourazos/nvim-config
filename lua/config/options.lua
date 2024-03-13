@@ -48,6 +48,9 @@ vim.o.expandtab = true
 vim.o.smartindent = true
 
 -- Intentado hacer NeoTree transparente
-vim.api.nvim_set_hl(0, "Normal", { fg = "NONE", ctermfg = "NONE" })
+--vim.api.nvim_set_hl(0, "Normal", { fg = "NONE", ctermfg = "NONE" })
 --vim.api.nvim_set_hl(0, "NeoTreeNormal", { fg = "NONE", ctermfg = "NONE" })
 --vim.api.nvim_set_hl(0, "NeoTreeNormalNC", { fg = "NONE", ctermfg = "NONE" })
+
+-- Cambiando el valor de localleader
+vim.g.maplocalleader = ","

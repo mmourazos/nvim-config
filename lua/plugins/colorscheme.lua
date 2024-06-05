@@ -7,8 +7,16 @@ return {
   {
     "rose-pine/neovim",
     name = "rose-pine",
-    --style = "moon",
+    style = "moon",
+      opts = {
+      styles = {
+        italic = true,
+        bold = true,
+        transparency = true,
+      },
+    },
   },
+  
   { "ellisonleao/gruvbox.nvim" },
 
   {
@@ -39,7 +47,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorschecolorscheme = "tokyonight",
+      colorscheme = "rose-pine",
     },
   },
 }
